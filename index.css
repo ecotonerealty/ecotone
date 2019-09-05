@@ -1,0 +1,13 @@
+.main-background {
+	background-color: #e8eaf6;
+}
+
+.page-content {
+	justify-content: center;
+	height: 100%;
+}
+
+.center-card {
+	width: 100%;
+	margin: 48 0;
+}

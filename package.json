@@ -1,0 +1,18 @@
+{
+	"name": "ecotone-realty",
+	"version": "1.0.0",
+	"description": "Webpage for Ecotone Realty",
+	"main": "index.html",
+	"dependencies": {},
+	"devDependencies": {
+		"concurrently": "^4.1.2",
+		"http-server": "^0.11.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"open": "concurrently \"http-server --gzip -c-1 -a localhost -p 2001\" \"open http://localhost:2001\"",
+		"start": "npm run open"
+	},
+	"author": "",
+	"license": "ISC"
+}
