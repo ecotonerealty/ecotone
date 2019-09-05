@@ -17,5 +17,11 @@ body {
 
 .card-image {
 	background: url("./images/black-and-white.jpg") right 50% top -25px / cover no-repeat;
-	height: 200px;
+	height: 300px;
+}
+
+@media screen and (max-width: 1080px) {
+	.card-image {
+		height: 200px;
+	}
 }
