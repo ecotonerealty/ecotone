@@ -1,5 +1,9 @@
+body {
+	overflow: hidden;
+}
+
 .main-background {
-	background-color: #e8eaf6;
+	background-color: #e9eaec;
 }
 
 .page-content {
@@ -8,5 +12,10 @@
 
 .center-card {
 	width: 100%;
-	margin: 48 0;
+	margin: 24 0;
+}
+
+.card-image {
+	background: url("./images/black-and-white.jpg") right 50% top -25px / cover no-repeat;
+	height: 200px;
 }
